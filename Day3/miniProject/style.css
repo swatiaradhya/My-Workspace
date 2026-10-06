@@ -1,0 +1,52 @@
+.nav_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu_lists{
+    display: flex;
+    gap: 30px;
+}
+
+.my_profile{
+    font-weight:90px;
+}
+
+.about_us{
+    text-align: center;
+    width: 100%;
+}
+
+/*projects section using grid */
+.grid_layout{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.contact{
+    padding: 40px;
+    align-items: center;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+}
+

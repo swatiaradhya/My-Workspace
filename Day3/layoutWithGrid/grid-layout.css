@@ -1,0 +1,35 @@
+.layout {
+  display: grid; /* using grid layout*/
+  grid-template-areas:
+    "header header"
+    "sidebar main_content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr; /*devides the space into 1:3*/
+  gap: 3px;
+  border: 10px;
+  background-color: rgb(212, 87, 15);
+  padding: 5px;
+}
+
+.layout div {
+  background-color: white;
+  padding: 10px;
+}
+
+.layout div.header {
+  grid-area: header;
+  text-align: center;
+}
+
+.layout div.sidebar {
+  grid-area: sidebar;
+}
+
+.layout div.main_content {
+  grid-area: main_content;
+}
+
+.layout div.footer {
+  grid-area: footer;
+  text-align: center;  
+}

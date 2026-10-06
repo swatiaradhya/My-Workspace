@@ -1,0 +1,2 @@
+* Page layout with grid looks more organised compared to semantic page layout.
+* grid layout is easier to build web pages compared to the other layouts.

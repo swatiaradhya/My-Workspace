@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- creating header section using semantic element and flex -->
+    <header>
+        <nav class="nav_container">
+        <div class="my_profile"><h1>Portfolio</h1></div>
+            <ul class="menu_lists">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Project</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section id="about_us">
+        <h2>software developer</h2>
+        <p>Iam a software engineer who builds smooth digital experiences.
+     Iam someone who just loves figuring out how things work.
+     I love the thrill of starting from scratch, asking questions and
+     figuring out how things work.</p>
+    </section>
+
+    <!-- grid section -->
+
+    <section id = "projects">
+        <h2 class=""project-title>Projects</h2>
+        <div class="grid_layout">
+
+            <!-- PROJECT 1 -->
+            <article class="project-card">
+                <div class="project-info">
+                    <h3>HTML & CSS</h3>
+                    <P>I love the thrill of starting from scratch, asking questions and
+     figuring out how things work.</P>
+                </div>
+            </article>
+
+             <!-- PROJECT 2 -->
+            <article class="project-card">
+                <div class="project-info">
+                    <h3>JavaScript</h3>
+                    <P>I love the thrill of starting from scratch, asking questions and
+     figuring out how things work.</P>
+                </div>
+            </article>
+
+             <!-- PROJECT 3 -->
+            <article class="project-card">
+                <div class="project-info">
+                    <h3>UI5</h3>
+                    <P>I love the thrill of starting from scratch, asking questions and
+     figuring out how things work.</P>
+                </div>
+            </article>
+        </div>
+    </section>
+
+<!-- contact form layout -->
+ <section id="contact">
+    <h2 class = "title"> Contact Form </h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <button type="submit" class="btn">Click</button>
+        </form>
+ </section>
+
+ <footer>
+    <p>2026.All rights Reserved.</p>
+
+ </footer>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+.price_columns {
+  float: left;
+  width: 30.3%;
+  padding: 8px;
+}
+
+.listItems .header{
+  background-color: #98d85c;
+  color: white;
+  font-size: 20px;
+
+}
+
+.listItems li {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+}
+
+
+.btn {
+  background-color: #2d3dca;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  
+}

@@ -1,0 +1,4 @@
+I have inspected the Header element of the dance studio website.
+Using <div> tag with different class names for menu, logo & searchBar
+DevTools are very useful to identify webpage structure.
+We can change and view the HTML & CSS side of the web page temporarily, before adding it into the source code.

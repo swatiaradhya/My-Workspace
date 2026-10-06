@@ -1,0 +1,38 @@
+p
+{
+    font-family: cursive;
+    font-size: 15px;
+    margin: 10px;
+}
+
+h3{
+    font-family: serif;
+    background-color: darkgray;
+    padding: 5px;
+    border: 2px solid rgb(13, 12, 12);
+}
+
+.mainHeading{
+      
+    color: white;
+    background-color: rgb(133, 127, 127);
+    padding-left: 15px;
+    border-style:dashed;
+    text-align: center;
+
+}
+
+#hobbiesList{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: aqua;
+}

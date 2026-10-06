@@ -1,0 +1,43 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+/* flex displays the elements side by side */
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    padding: 15px 30px;
+    justify-content:center;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.logo h1{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Adding flex to the menu items */
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap:20px /* spacing between menu items */
+}
+
+/* styling menu links */
+.nav-links a{
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+
+/* Changing menu color on hover */
+.nav-links a:hover{
+    color: green;
+}

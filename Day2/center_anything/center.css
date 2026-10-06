@@ -1,0 +1,12 @@
+.box_container {
+  display: flex;
+  justify-content: center; /* Centers the text horizontally */
+  align-items: center;     /* Centers the text vertically */
+  height: 100vh;           
+}
+
+.box {
+    
+  padding: 30px;
+  background-color: rgb(231, 133, 169);
+}

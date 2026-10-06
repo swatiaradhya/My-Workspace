@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Company</title>
+
+    <!-- Using flex styling to display the menu items next to each other -->
+     <!-- Styling the sidebar -->
+      <!-- inline-block to align div elements side by side -->
+    <style>
+         nav ul {
+            display : flex;
+            gap : 20px;
+            list-style: none;
+        }
+
+        aside {
+             width:30%;
+             padding-left: 15px;
+             margin-left: 15px;
+             float: right;
+        }
+
+        div {
+            display: inline-block;
+            
+        }
+
+        div.blog_sections {
+            width:100%;
+            
+            }
+
+        div.blog_sections div {
+            width:30%;  
+            background-color: aquamarine;
+            
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="company_name">Plantology</h1>
+
+        <nav class="menu_items">
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Blogs</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
+        <!-- Adding the main content of the document -->
+        <main>
+            <h2 id="main_header">Bring green to your Home</h2>
+            <!-- Using <span> element to color a part of a text -->
+            <p>Welcome to <span style="color:blue">Plantology</span>.what started as a backyard
+                passion project has grown into a full scale nursery.
+                We believe that Green is Good and are here to enable
+                Indians to access plants in the easiest way possible 
+                – online! We are here to shape the future of gardening!
+                If you’re new to being a plant parent, we’re here to make
+                it easier. Our garden experts can provide you with guidance
+                for detailed care every step of the way.</p>
+        </main>
+
+
+        <!-- using <aside> tag to create a sidebar content-->
+            <aside id="sidebar">
+                <h2>Beginner Friendly</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur
+                   adipiscing elit. Sed do eiusmod tempor incididunt
+                   ut labore et dolore magna aliqua. Ut enim ad
+                   minim Lorem ipsum dolor sit amet, consectetur
+                   adipiscing elit. Sed do eiusmod tempor incididunt
+                   ut labore et dolore magna aliqua. Ut enim ad
+                   minim</p>
+            </aside>
+
+     <!-- we can use the <section> tag to splitthe web page into sections.-->
+        <section>
+            <h2>About Us</h2>
+            <p>Our journey bagan with a simple belief,
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sintoccaecat
+            </p>
+        </section>
+
+        <article>
+            <h2>Indoor Plants</h2>
+            <p>Perfect for first time plant parents or busy customers.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim
+            </p>
+        </article>
+
+        <!-- Creating a section using <div> tag -->
+            <div class="blog_sections">
+            <div>
+                <h3>Indoor Greenery</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim
+                </p>
+            </div>
+
+            <div>
+                <h3>Outdoor Garden</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim
+                </p>
+            </div>
+
+            <div>
+                <h3>Office desk</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim
+                </p>
+            </div>
+            </div>
+
+        <!-- Using <footer> tag to write the copyright info for the site -->
+        <!-- It will be shown on the bottom of the page -->
+        <footer style="background-color:gray; padding: 2px;">
+            <p>2026 Plantology.All rights Reserved.</p>
+
+        </footer>
+    
+    
+    
+
+    
+</body>
+</html>

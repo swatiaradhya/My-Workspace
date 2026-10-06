@@ -1,0 +1,18 @@
+
+.image_container {
+  display: grid;
+  /* splits the space between the images evenly */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;  
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Used to maintain original aspect ratio */
+}
+
+.span_image{
+    grid-column: span 2; /* Stretch across 2 tracks */
+}
